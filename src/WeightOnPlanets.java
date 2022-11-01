@@ -43,6 +43,5 @@ public class WeightOnPlanets
         }
 
         System.out.println("Your weight on " + planet + " would be " + weight);
-
     }
 }
