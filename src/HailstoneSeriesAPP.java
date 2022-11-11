@@ -28,7 +28,7 @@ public class HailstoneSeriesAPP
             steps++;
         }
         System.out.println(1 + "\n");
-        System.out.println("Series took " + steps + " to reach a value of 1");
+        System.out.println("Series took " + steps + " steps to reach a value of 1");
         System.out.println("Largest integer generated: " + largest);
     }
 }
