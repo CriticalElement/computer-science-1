@@ -19,7 +19,7 @@ public class FastFood
 
         while (!(nextItem = scan.nextLine()).equals("stop"))
         {
-            switch (nextItem) {
+            switch (nextItem.toLowerCase()) {
                 case "hot dog":
                     hotDogs++;
                     break;
