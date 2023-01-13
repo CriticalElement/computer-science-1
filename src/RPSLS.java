@@ -20,7 +20,7 @@ public class RPSLS
         boolean keepPlaying = true;
         while (keepPlaying)
         {
-            System.out.println("Let's play RPSLR!\n");
+            System.out.println("Let's play RPSLS!\n");
             System.out.println("1. Rock");
             System.out.println("2. Paper");
             System.out.println("3. Scissors");
