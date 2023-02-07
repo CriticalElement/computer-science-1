@@ -52,6 +52,7 @@ public class StdDrawGraphicalDrawer
                     isFilled = !isFilled;
                 }
                 else if (keyTyped == COLOR) {
+                    System.out.print("Enter rgb values (line separated): ");
                     StdDraw.setPenColor(scan.nextInt(), scan.nextInt(), scan.nextInt());
                 }
                 else if (keyTyped == 'q') {
@@ -87,7 +88,7 @@ public class StdDrawGraphicalDrawer
         }
     }
 
-    public static void drawGrid(int width, int height) {
+    private static void drawGrid(int width, int height) {
 //        for (int i = 0; i <= width; i += 25) {
 //            if (i % width / 2 == 0) {
 //                StdDraw.setPenColor(0, 0, 255);
