@@ -1,5 +1,8 @@
+// Name: Pranav Pakanati
+// Period: Jarrell 2B
+// Title: limitless
+
 import java.awt.*;
-import java.util.ArrayList;
 import java.util.Random;
 
 public class GraphicsProject
@@ -16,6 +19,7 @@ public class GraphicsProject
         StdDraw.setYscale(0, height);
 
         StdDraw.clear(Color.BLACK); // set canvas to black
+        // could have used .filledRectangle but same result anyway
 
         StdDraw.setPenColor(Color.WHITE); // draw stars randomly throughout the scene
         for (int i = 0; i < 2000; i++) {
@@ -95,31 +99,7 @@ public class GraphicsProject
         StdDraw.setPenColor(255, 233, 0);
         StdDraw.filledPolygon(new double[] {571.0, 642.0, 712.0}, new double[] {274.0, 262.0, 273.0});
 
-
-        boolean clicked = false;
-        ArrayList<Double> mouseXPos = new ArrayList<>();
-        ArrayList<Double> mouseYPos = new ArrayList<>();
-        StdDraw.setPenColor(255, 255, 255);
-
-        while (true) {
-            if (StdDraw.isMousePressed()) {
-                if (!clicked) {
-                    double x = StdDraw.mouseX();
-                    double y = StdDraw.mouseY() - 15;
-                    System.out.printf("(%s, %s)%n", x, y);
-                    mouseXPos.add(x);
-                    mouseYPos.add(y);
-                    StdDraw.circle(x, y, 1);
-                    System.out.println(mouseXPos.toString());
-                    System.out.println(mouseYPos.toString());
-                    clicked = true;
-                }
-            }
-            else {
-                clicked = false;
-            }
-            StdDraw.pause(60);
-        }
-
+        StdDraw.setPenColor(StdDraw.WHITE);
+        StdDraw.textRight(1905, 50, "Pranav Pakanati - limitless");
     }
 }
