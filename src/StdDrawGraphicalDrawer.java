@@ -84,7 +84,7 @@ public class StdDrawGraphicalDrawer
             if (!mousePressed) { drawGrid(width, height); }
             shapes.forEach(Shape::draw);
             if (tempShape != null) { tempShape.draw(); }
-            StdDraw.pause(33);
+            StdDraw.pause(10);
         }
     }
 
