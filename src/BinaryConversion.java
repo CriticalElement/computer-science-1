@@ -84,14 +84,6 @@ public class BinaryConversion
         else
             System.out.println("Not in order");
 
-        // or...
-        int[] sortedArr = nums.clone();
-        Arrays.sort(sortedArr);
-        if (Arrays.equals(nums, sortedArr))
-            System.out.println("In order");
-        else
-            System.out.println("Not in order");
-
         // 9:
         int numEvens = 0;
         //noinspection ForLoopReplaceableByForEach
