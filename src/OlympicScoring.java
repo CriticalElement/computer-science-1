@@ -16,23 +16,12 @@ public class OlympicScoring
         for (int i = 0; i < count; i++) {
             athletes[i] = scan.next();
             double[] score = new double[7];
-            double[] trueScore = new double[5];
-            double minScore = Double.MAX_VALUE;
-            double maxScore = Double.MIN_VALUE;
 
             for (int j = 0; j < 7; j++) {
-                double curScore = scan.nextDouble();
-                score[j] = curScore;
-                minScore = Math.min(minScore, curScore);
-                maxScore = Math.max(maxScore, curScore);
+                score[j] = scan.nextDouble();
             }
-            int it = 0;
-            for (double curScore : score) {
-                if (curScore != minScore && curScore != maxScore) {
-                    trueScore[it] = curScore;
-                    it++;
-                }
-            }
+            Arrays.sort(score);
+            double[] trueScore = Arrays.copyOfRange(score, 1, 6);
             double sum = 0;
             for (double point : trueScore) {
                 sum += point;
