@@ -37,12 +37,17 @@ public class PigLatinPro
                             break;
                         }
                     }
-                    if (!hasVowel && letterYIndex != -1) { // if y is the only vowel in the string
-                        firstVowelIndex = letterYIndex;
+                    if (!hasVowel && letterYIndex == 0) { // if y is the only vowel in the string and is the first char
+                        System.out.print(word + "hay ");
                     }
-                    String movedChars = word.substring(0, firstVowelIndex);
-                    String inPlaceChars = word.substring(firstVowelIndex);
-                    System.out.print(inPlaceChars + movedChars + "ay ");
+                    else {
+                        if (!hasVowel && letterYIndex != -1) { // if y is the only vowel in the string
+                            firstVowelIndex = letterYIndex;
+                        }
+                        String movedChars = word.substring(0, firstVowelIndex);
+                        String inPlaceChars = word.substring(firstVowelIndex);
+                        System.out.print(inPlaceChars + movedChars + "ay ");
+                    }
                 }
                 else { // first letter is a vowel
                     System.out.print(word + "hay ");
