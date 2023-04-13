@@ -16,7 +16,7 @@ public class ApproximatePIAPP
     {
         double accumulate = 0;
         double numerator = -1;
-        for (int n = 1; n < iterations; n++) {
+        for (int n = 1; n <= iterations; n++) {
             numerator *= -1;
             double denominator = 2 * n - 1;
             accumulate += numerator / denominator;
