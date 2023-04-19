@@ -4,7 +4,7 @@ public class Automobile
     public double mpg;
     public double gallons;
 
-    Automobile(double mpg)
+    public Automobile(double mpg)
     {
         this.mpg = mpg;
         gallons = 0;
