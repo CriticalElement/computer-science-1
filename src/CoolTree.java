@@ -1,9 +1,5 @@
-// Name: Pranav Pakanati
-// Period: Jarrell 2B
-
 import java.awt.event.KeyEvent;
 import java.util.Random;
-
 
 public class CoolTree
 {

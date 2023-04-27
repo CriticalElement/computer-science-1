@@ -1,6 +1,3 @@
-// Name: Pranav Pakanati, Akshay Gajjala, Shaunak Sethi
-// Period: Jarrell 2B
-
 import java.util.Scanner;
 
 public class TShirtLauncher

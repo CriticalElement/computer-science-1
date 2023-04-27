@@ -1,6 +1,3 @@
-// Name: Pranav Pakanati
-// Period: Jarrell 2B
-
 public class NumberHistogram
 {
     public static void main(String[] args)

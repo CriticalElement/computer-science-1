@@ -1,7 +1,5 @@
-// Name: Pranav Pakanati
-// Period: Jarrell 2B
-
 import java.util.*;
+
 public class BMI_APP
 {
     public static void main(String[] args)

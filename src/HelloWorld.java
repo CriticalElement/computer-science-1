@@ -1,7 +1,3 @@
-//Name: Pranav Pakanati
-//Period: Jarrell 2B
-
-
 public class HelloWorld
 {
     public static void main(String[] args)

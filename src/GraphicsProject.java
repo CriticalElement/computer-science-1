@@ -1,5 +1,3 @@
-// Name: Pranav Pakanati
-// Period: Jarrell 2B
 // Title: limitless
 
 import java.awt.*;
@@ -100,6 +98,6 @@ public class GraphicsProject
         StdDraw.filledPolygon(new double[] {571.0, 642.0, 712.0}, new double[] {274.0, 262.0, 273.0});
 
         StdDraw.setPenColor(StdDraw.WHITE);
-        StdDraw.textRight(1905, 50, "Pranav Pakanati - limitless");
+        StdDraw.textRight(1905, 50, "limitless");
     }
 }

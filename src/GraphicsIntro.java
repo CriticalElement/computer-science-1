@@ -1,6 +1,3 @@
-// Name: Pranav Pakanati
-// Period: Jarrell 2B
-
 import java.awt.*;
 
 public class GraphicsIntro

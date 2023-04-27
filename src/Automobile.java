@@ -17,7 +17,7 @@ public class Automobile
 
     public void takeTrip(double miles)
     {
-        this.gallons -= miles / mpg;
+        gallons -= miles / mpg;
     }
 
     public double reportFuel()

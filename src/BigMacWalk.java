@@ -1,7 +1,3 @@
-// Name: Pranav Pakanati
-// Period: Jarrell 2B
-
-
 public class BigMacWalk
 {
     public static void main(String[] args)
@@ -49,7 +45,7 @@ public class BigMacWalk
         // 11:
         int miles = 192;
         int gallons = 16;
-        int mpg = 0; // miles per gallon
+        int mpg; // miles per gallon
 
         // 12:
         mpg = miles / gallons;

@@ -1,6 +1,3 @@
-// Name: Pranav Pakanati
-// Period: Jarrell 2B
-
 import java.util.Arrays;
 import java.util.Random;
 
@@ -20,13 +17,13 @@ public class NumberHistogramAPP
         int[] histogram = new int[10];
 
         for (int i = 0; i < histogram.length; i++) {
-            int occurences = 0;
+            int occurrences = 0;
             //noinspection ForLoopReplaceableByForEach
             for (int j = 0; j < data.length; j++) {
                 if (data[j] == i)
-                    occurences++;
+                    occurrences++;
             }
-            histogram[i] = occurences;
+            histogram[i] = occurrences;
         }
 
         for (int i = 0; i < histogram.length; i++) {
